@@ -4,5 +4,8 @@
         "phpstan/phpstan": "0.12.18",
         "nikic/php-parser": "^4.4.0",
         "goaop/parser-reflection": "^2.1"
+    },
+    "scripts": {
+        "phpstan-reproduce": "phpstan analyze -- index.php"
     }
 }
