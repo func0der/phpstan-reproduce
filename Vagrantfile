@@ -21,4 +21,9 @@ Vagrant.configure("2") do |config|
     # Switch to /vagrant and install packages
     cd /vagrant && composer install
   SHELL
+
+  config.vm.provision "shell", privileged: false, inline: <<-SHELL
+    # Reproduce problem
+    cd /vagrant && composer phpstan-reproduce
+  SHELL
 end
