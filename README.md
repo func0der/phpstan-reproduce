@@ -1,3 +1,7 @@
+## What is this?
+
+Reproduces a problem that was reported here: https://github.com/phpstan/phpstan/issues/3186
+
 ## How to
 
 ### With vagrant installed
