@@ -1,0 +1,8 @@
+{
+    "name": "vagrant/vagrant",
+    "require": {
+        "phpstan/phpstan": "0.12.18",
+        "nikic/php-parser": "^4.4.0",
+        "goaop/parser-reflection": "^2.1"
+    }
+}
